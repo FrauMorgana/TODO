@@ -40,6 +40,11 @@ const PRIORIY = {
 	LOW: 'low',
 }
 
+const STORAGE = {
+	SAVE: 'save',
+	GET: 'get',
+}
+
 function TaskObject(name, status, priority) {
 	this.name = name;
 	this.status = status;
@@ -47,4 +52,4 @@ function TaskObject(name, status, priority) {
 }
 
 
-export {TaskObject, ELEMENT, STATUS, PRIORIY}
+export {TaskObject, ELEMENT, STATUS, PRIORIY, STORAGE}
